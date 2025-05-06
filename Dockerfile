@@ -1,4 +1,4 @@
-FROM php:8.4-cli-alpine
+FROM php:8.4.6-cli-alpine
 
 RUN apk add --no-cache git zip unzip supervisor autoconf gcc cmake make g++ zlib-dev libzip-dev
 
